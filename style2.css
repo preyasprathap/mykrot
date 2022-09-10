@@ -1,0 +1,33 @@
+*{
+    padding:0px;
+    margin:0px;
+  }
+  
+  body{
+    background-color:#FAF5F2;
+    padding:22px;
+    max-width:900px;
+    margin:auto;
+  }
+  
+  .main-heading{
+    margin-top:11px;
+    padding-bottom:20px;
+    font-size:22px;
+    color:#A2625C;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .content{
+    line-height:1.6;
+    font-family: 'Assistant', sans-serif;
+  }
+  
+  @media (min-width:600px) {
+    .main-heading{
+      font-size:1.6rem;
+    }
+    .content{
+      font-size:1.3rem;
+    }
+  }
